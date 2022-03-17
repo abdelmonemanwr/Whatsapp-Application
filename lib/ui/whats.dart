@@ -88,7 +88,6 @@ class WhatsApp extends StatelessWidget {
                 Scrollbar(
                   child: ListView(
                     children: [
-                      contact("Engy", false, false, "قولى نكتة", 1, 11, 13, engy),
                       contact("3geza", true, true, "gamed zo7leeqa", 2, 12, 20, ammar),
                       contact("Ali", true, false, "3aaa4 ya bro", 1, 12, 22, ali),
                       contact("Ragae", false, true, "gamal w dalal", 1, 12, 27, ragae),
