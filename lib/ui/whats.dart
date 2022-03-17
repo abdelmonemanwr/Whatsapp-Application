@@ -98,7 +98,6 @@ class WhatsApp extends StatelessWidget {
                       contact( "Joe", false, false, "ana 3aref enta m7tag eh b3d el 3zma deeh", 5, 12, 29, yousefdotpy),
                       contact("Mohamed Alaa", true, true, "el3bb", 2, 12, 40, alaa),
                       contact("Mohamed Ebrahim", true, false, "Accepted", 1, 1, 22, ebrahim),
-                      contact("Rewan", false, false, "gamal w dalal", 1, 2, 27, rewan),
                       contact("Hadi", true, true, "روحت انهارده سيشن الفلاتر؟", 2, 12, 20, hadi),
                       contact("Dar4", true, false, "3aaa4 ya bro", 1, 12, 22, mostafa),
                       contact("Barakoota", false, true, "gamal w dalal", 1, 12, 27, barakat),
