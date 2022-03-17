@@ -19,6 +19,10 @@ class _LoginState extends State<Login> {
     TextEditingController pass = TextEditingController();
     return Scaffold(
         backgroundColor: Colors.deepPurple,
+        appBar: AppBar(
+          title: const Text('Login'),
+          backgroundColor: Colors.deepPurpleAccent,
+        ),
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -26,9 +30,9 @@ class _LoginState extends State<Login> {
               Column(
                 children: [
                   const Text("Hello", style:
-                      TextStyle(fontSize: 65)),
+                  TextStyle(fontSize: 65)),
                   const SizedBox(height: 10),
-                  const Text("sign into your Account"),
+                  const Text("Sign into your Account"),
                   const SizedBox(height: 10),
                   Padding(
                     padding: const EdgeInsets.all(20),
@@ -37,7 +41,7 @@ class _LoginState extends State<Login> {
                       decoration: InputDecoration(
                         prefixIcon: const Icon(Icons.email),
                         label: const Text("Email"),
-                        hintText: "enter you email",
+                        hintText: "Enter you email",
                         border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(50)),
                       ),
@@ -66,7 +70,7 @@ class _LoginState extends State<Login> {
                       children: [
                         TextButton(
                             onPressed: () {},
-                            child: const Text("forget you password ?")),
+                            child: const Text("Forget you password?")),
                       ],
                     ),
                   ),
@@ -81,7 +85,7 @@ class _LoginState extends State<Login> {
                           width: 280,
                         ),
                         const Text(
-                          "sign up ",
+                          "Sign up ",
                           style: TextStyle(
                             fontSize: 40,
                           ),

@@ -12,7 +12,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Login(),
+      home: DefaultTabController(
+          length: 3,
+          child: Login()
+      ),
     );
   }
 }
